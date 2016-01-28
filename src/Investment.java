@@ -1,6 +1,5 @@
-
 //Interface
 public interface Investment {
-	public void declareName();
-	public void declarePercent();
+   public void declareName();
+   public void declarePercent();
 }
