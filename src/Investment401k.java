@@ -15,15 +15,15 @@ public class Investment401k extends InvestmentTypes {
       System.out.println("The yearly sum is " + yearlySum(c));
    }
    //Method Override 
-   public double getAvg() {
+   public double getAverage() {
       return .05 * amount;
    }
    //Method Overload
-   public double getAvg(double c) {
+   public double getAverage(double c) {
       return .05 * c; 
    }
    public String toString() {
-      String str = "The 401k account accumulates " + getAvg(amount);
+      String str = "The 401k account accumulates " + getAverage(amount);
       return str;
    }
 
